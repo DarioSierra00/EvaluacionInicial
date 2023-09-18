@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+body{
+    background-image: url("./img/Fondo-calculadoras-01.png");
+    background-size: cover;
+}
+
 .cabecera{
     text-align: center;
     background-color: burlywood;
@@ -61,10 +66,6 @@ a{
     text-align: center;
 }
 
-.fondo{
-    background-repeat: no-repeat;
-    margin: auto;
-}
 .footerInicio{
     height: 50px;
     background-color: burlywood;
@@ -81,7 +82,19 @@ footer{
     margin-top: 41%;
 }
 
+.Recuadroresultado{
+    position: absolute;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .resultado{
-    margin-top: 10%;
-    margin-left: 50%;
+    position: absolute;
+    top: 43%;
+    left: 48%;
 }
