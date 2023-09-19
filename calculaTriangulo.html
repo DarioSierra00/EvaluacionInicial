@@ -8,31 +8,38 @@
 </head>
 <body>
     <div class="cabecera">
-        <a href="./index.html">Inicio</a>
-        <a href="./calculaCuadrado.html">Cuadrado</a>
-        <a href="./calculaCirculo.html">Circulo</a>
+        <a href="./index.html"><b>Inicio - </b></a>
+        <a href="./calculaCuadrado.html"><b>Cuadrado - </b></a>
+        <a href="./calculaCirculo.html"><b>Circulo - </b></a>
+        <a href="./contacto.html"><b>Contacto</b></a>
     </div>
+    <br>
     <h2 class="titulo">Triangulo</h2>
     <div class="recuadro">
-        
         <div class="calculo">
-            <p class="base">Introduzca la base de su triangulo </p>
-            <input type="text" placeholder="Base del Triangulo">
+            <p class="diametro">Introduzca la base de su triangulo</p>
             <br>
-            <p class="altura">Introduzca la base de su triangulo </p>
-            <input type="text" placeholder="Altura del triangulo">
+            <input type="text" placeholder="Introduzca la base" class="respuestaDiametro" id="datoBase">
+            <input type="text" placeholder="Introduzca la altura" class="respuestaDiametro" id="datoAltura">
+            <button id="botonTriangulo">Calcular</button>
+            <br>
+            <br>
             <hr>
-            <p>El area de su triangulo es de:  </p>
+            <p>El área de su triangulo es de:  </p>
             <p></p>
             <div class="Recuadroresultado" >
-                <label class="resultado" id="Recuadroresultado"></label>
+                <label class="resultado" id="resultadoTriangulo"></label>
             </div>
         </div>
     </div>
-
+    <div class="recuadroContacto">
+        <div class="contacto">
+            <a href="contacto.html"><b>Contacto</b></a>
+        </div>
+    </div>
     <footer>
         <div class="company">1996-2023, Calculator3000.com, Inc. o sus afiliados</div>
     </footer>
-    <script src="index.js"></script>
+    <script src="triangulo.js"></script>
 </body>
 </html>

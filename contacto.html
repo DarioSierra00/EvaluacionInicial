@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="/img/calc.jpg"/>
+</head>
+<body>
+    <div class="cabecera">
+        <a href="./index.html"><b>Inicio - </b></a>
+        <a href="./calculaCuadrado.html"><b>Cuadrado - </b></a>
+        <a href="./calculaCirculo.html"><b>Circulo - </b></a>
+        <a href="./calculaTriangulo.html"><b>Triangulo</b></a>
+    </div>
+
+    <div class="recuadro">
+        <div class="recuadroFormulario">
+            <br>
+            <h2>Formulario de contacto</h2>
+            <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+            <div class="email">
+                <label>Introduce tu email</label>
+                <br>
+                <input type="text" name="Email" required>
+            </div>
+            <div class="nombre">
+                <label>Introduce tu nombre completo</label> 
+                <input type="text" name="Nombre" required>
+            </div>
+            <div class="domicilio">
+                <label>Indica donde se encuentra su domicilio</label> 
+                <input type="text" name="Domicilio" required>
+            </div>
+            <div class="genero">
+                <label><u>Género</u></label>
+                <br>
+                <label>Hombre <input type="radio" name="Genero" value="Hombre" required>    
+                    Mujer <input type="radio" name="Genero" value="Mujer" required></label>
+                </div>
+                <div class="textoArea">
+                    <label>Que deseas contarnos</label>
+                <br>
+               <label><textarea cols="40" rows="5"></textarea></label>
+           </div>
+           <div class="boton">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar" >
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    <footer class="footerContacto">
+        <div class="company">1996-2023, Calculator3000.com, Inc. o sus afiliados</div>
+    </footer>
+</body>
+</html>
+

@@ -5,6 +5,7 @@
 body{
     background-image: url("./img/Fondo-calculadoras-01.png");
     background-size: cover;
+    text-align: center;
 }
 
 .cabecera{
@@ -33,18 +34,6 @@ body{
     font-size: 18px;
 }
 
-.respuestaDiametro{
-    margin-left: 35%;
-}
-
-.base{
-    font-size: 13px;
-}
-
-.altura{
-    font-size: 13px;
-}
-
 .texto{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -55,15 +44,7 @@ a{
     position: relative;
     top: 30%;
     text-decoration: none;
-    color: black;
-}
-
-.titulo{
-    text-align: center;
-}
-
-.company{
-    text-align: center;
+    color: black;  
 }
 
 .footerInicio{
@@ -79,7 +60,13 @@ a{
 footer{
     height: 50px;
     background-color: burlywood;
-    margin-top: 41%;
+    margin-top: 39.5%;
+}
+
+.footerContacto{
+    height: 50px;
+    background-color: burlywood;
+    margin-top: 43%;
 }
 
 .Recuadroresultado{
@@ -95,6 +82,74 @@ footer{
 
 .resultado{
     position: absolute;
-    top: 43%;
-    left: 48%;
+    top: 40%;
+    left: 43%;
+}
+
+.contacto{
+    position: relative;
+    height: 30px;
+    width: 85px;
+}
+
+.recuadroContacto{
+    border-radius: 6px;
+    position: absolute;
+    background-color: aliceblue;
+    top: 80%;
+    left: 2%;
+    transform: translate(-10%,-10%);
+}
+
+.company{
+    position: absolute;
+    top: 95%;
+    left: 33%;
+}
+
+.recuadroFormulario{
+    height: 500px;
+    width: 500px;
+}
+
+.email{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+}
+
+.nombre{
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%,-50%);
+}
+
+.genero{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+
+
+.domicilio{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.textoArea{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
+.boton{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
 }
