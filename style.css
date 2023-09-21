@@ -50,7 +50,7 @@ a{
 .footerInicio{
     height: 50px;
     background-color: burlywood;
-    margin-top: 40.1%;
+    margin-top: 42.1%;
 }
 
 .colorFondo{
@@ -60,13 +60,13 @@ a{
 footer{
     height: 50px;
     background-color: burlywood;
-    margin-top: 43%;
+    margin-top: 45%;
 }
 
 .footerContacto{
     height: 50px;
     background-color: burlywood;
-    margin-top: 45.4%;
+    margin-top: 47.8%;
 }
 
 .Recuadroresultado{
@@ -104,7 +104,7 @@ footer{
 .company{
     position: absolute;
     top: 96.5%;
-    left: 42%;
+    left: 40%;
 }
 
 .recuadroFormulario{
